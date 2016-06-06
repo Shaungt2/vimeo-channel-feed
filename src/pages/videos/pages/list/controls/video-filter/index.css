@@ -1,0 +1,38 @@
+.component {
+    background-color: white;
+    border: 1px solid rgb(225, 232, 237);
+    padding: 10px;
+}
+
+.title {
+    color: rgb(60, 161, 197);
+    display: block;
+    text-decoration: none;
+}
+
+.titleText {
+    text-decoration: underline;
+}
+
+.visibilityStateIcon {
+    font-size: .9em;
+    margin-left: 5px;
+}
+
+.filterLabel {
+    display: block;
+    margin-top: 8px;
+}
+
+.filterDescription {
+    color: rgb(102, 117, 127);
+    display: block;
+    font-size: .6em;
+    margin-bottom: 2px;
+}
+
+.filterInput {
+    padding-left: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+}

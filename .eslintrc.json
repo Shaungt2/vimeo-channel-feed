@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "node"   : true
+    },
+    "extends": [
+        "eslint:recommended",
+        "@mgtitimoli/eslint-config",
+        "@mgtitimoli/eslint-config-babel",
+        "@mgtitimoli/eslint-config-react"
+    ],
+    "rules": {
+        "max-statements-per-line": "off"
+    }
+}
+

@@ -1,0 +1,87 @@
+.component {
+    background-color: white;
+    border-bottom: 1px solid rgb(225, 232, 237);
+    display: flex;
+    padding: 10px;
+    position: relative;
+}
+
+.component:hover {
+    background-color: rgb(245, 248, 250);
+}
+
+.userPictureLink {
+    border: 1px solid black;
+
+    /* prevents extra space of inline elements */
+    font-size: 0;
+}
+
+.userPictureLink:hover {
+    border-color: rgb(60, 161, 197);
+}
+
+.userPicture {
+    background-color: rgb(152, 214, 238);
+    height: 100px;
+    width: 100px;
+}
+
+.videoInfo {
+    margin-left: 8px;
+
+    /* to allow name to be displayed with ellipsis if it is too large */
+    overflow: hidden;
+}
+
+.videoNameContainer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.videoNameLink {
+    color: black;
+    text-decoration: none;
+}
+
+.videoNameLink:hover {
+    color: rgb(60, 161, 197);
+    text-decoration: underline;
+}
+
+.videoDescription {
+    font-size: .9em;
+    margin-top: 5px;
+}
+
+.videoStats {
+    bottom: 10px;
+    color: rgb(170, 184, 194);
+    font-size: .8em;
+    position: absolute;
+    right: 10px;
+}
+
+.videoStatsItem {
+    margin-left: 6px;
+}
+
+.textLimitMarker {
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1) 95%
+    );
+
+    height: 1em;
+    width: 3em;
+}
+
+.component:hover .textLimitMarker {
+    background: linear-gradient(
+        to right,
+        rgba(245, 248, 250, 0),
+        rgba(245, 248, 250, 1) 95%
+    );
+}

@@ -1,0 +1,10 @@
+.component {
+    overflow: hidden;
+    position: relative;
+}
+
+.marker {
+    position: absolute;
+    right: 0;
+    text-align: right;
+}

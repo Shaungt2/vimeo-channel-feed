@@ -1,0 +1,12 @@
+.component {
+    display: inline-block;
+}
+
+.link {
+    color: rgb(60, 161, 197);
+}
+
+.info {
+    color: rgb(170, 184, 194);
+    margin-left: 5px;
+}
