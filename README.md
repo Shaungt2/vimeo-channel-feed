@@ -95,7 +95,7 @@ This project is a proof of concept to display the [Vimeo Top Channel feed](https
 - **building**: It contains the files used to build the project
     - **config**: Configuration files
     - **gulp**: [Gulp tasks](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulptaskname--deps--fn)
-    - **lib**: Contextual helpers used t support building
+    - **lib**: Contextual helpers used to support building
     - **locations**: All the locations (local and remote) used in gulp task and webpack config
     - **webpack**: [Webpack config](https://webpack.github.io/docs/configuration.html) related files
 
